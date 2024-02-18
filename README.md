@@ -1,4 +1,5 @@
 ### About 👋
+ - Job: Web Developer
  - Country: South Korea
 
 ### Interest
