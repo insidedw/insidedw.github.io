@@ -1,5 +1,4 @@
-### Hi there 👋
- - Name: Daewoong Kim
+### About 👋
  - Country: South Korea
 
 ### Interest
@@ -11,7 +10,18 @@
 
 ### Work Experience
  - [Naver](https://www.navercorp.com/) / Web Developer / Aug 2016 ~ Present
+   - Yahoo Japan Place
+     - Next.js, Recoil, Typescript, Vanilla-Extract, Nest.js
+   - Line Place
+     - React, Recoil, Typescript, scss, Nest.js, GraphQL
+   - Vlive
+     - React, Redux-saga, Typescript, scss, express, Ansible
+   - WAV Media
+     - jQuery, Spring, Apache, Flume, Storm, MySQL, Ansible
  - [Ksign](https://www.ksign.com/ksign/main/main.php) / Web Developer / Jun 2014 ~ Aug 2016
+   - Integrated Authentication Solution team
+     - Maintained and developed SEO, EAM Solution
+     - jQuery, Spring, Java Servlet
 
 ### Certificate
  - CCNA (expired)
