@@ -10,8 +10,8 @@
  - [Boostcamp Web・Mobile 8th](https://boostcamp.connect.or.kr/) Backend(Node.js) Mentor, 2023
 
 ### Work Experience
- - Naver / Web Developer / Aug 2016 ~ Present
- - Ksign / Web Developer / Jun 2014 ~ Aug 2016
+ - [Naver](https://www.navercorp.com/) / Web Developer / Aug 2016 ~ Present
+ - [Ksign](https://www.ksign.com/ksign/main/main.php) / Web Developer / Jun 2014 ~ Aug 2016
 
 ### Certificate
  - CCNA (expired)
