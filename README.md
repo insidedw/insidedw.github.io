@@ -1,4 +1,4 @@
-### About 👋
+### About
  - Job: Web Developer
  - Country: South Korea
 
@@ -23,6 +23,9 @@
    - Integrated Authentication Solution team
      - Maintained and developed SEO, EAM Solution
      - jQuery, Spring, Java Servlet
+
+### Education
+ - Minnesota State University, Mankato (2014)
 
 ### Certificate
  - CCNA (expired)
