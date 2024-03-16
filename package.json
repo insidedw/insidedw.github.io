@@ -1,6 +1,7 @@
 {
   "name": "insidedw.github.io",
   "version": "0.1.0",
+  "homepage": "insidedw.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
