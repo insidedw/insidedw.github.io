@@ -1,38 +1,95 @@
+.primary {
+  color: #ffa326;
+}
+
+.secondary {
+  color: grey;
+}
+
 .App {
-  text-align: center;
+  margin: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+small {
+  margin-left: 4px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h2 {
+  margin-top: 60px;
+  font-size: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  font-size: 18px;
+  margin-top: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 0.4rem;
+}
+
+p {
+  font-size: 12px;
+}
+
+.description {
+  font-size: 12px;
+}
+
+.done {
+  margin-left: 14px;
+}
+
+
+
+.footer_about_sns {
+  font-size:0;
+}
+.footer_sns_item {
+  display:inline-block;
+  vertical-align:top;
+}
+
+
+.footer_sns_item:before {
+  content: "";
+}
+
+.type_instagram {
+
+}
+
+.footer_sns_item.type_instagram:before {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  background-image: url(https://ik.imagekit.io/crso3ztbifq/portfolio/sp_header_190503_03153336_P9vVObOai.svg?updatedAt=1710553405835), none;
+  background-size: 166px 141px;
+  background-position: -90px -116px;
+}
+
+.blind {
+  overflow: hidden !important;
+  position: absolute !important;
+  visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  font-size: 1px !important;
+  line-height: 1px !important;
+  color: transparent !important;
+}
+
+
+.center {
+ vertical-align: auto;
 }

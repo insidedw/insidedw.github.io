@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*background-color: #282c34;*/
+  background-color: #000;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  letter-spacing: 0.5px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: #ffdc54;
+  }
+}
+
