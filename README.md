@@ -1,29 +1,29 @@
 ### About
- Job: Web Developer <br/>
- Country: South Korea
+Job: Web Developer <br/>
+Country: South Korea
 
 ### Interest
- Web Performance Improvement <br/>
- Mentoring
+Web Performance Improvement <br/>
+Mentoring
 
 ### Activity
 [Boostcamp Web・Mobile 8th](https://boostcamp.connect.or.kr/) Backend(Node.js) Mentor, 2023
 
 ### Work Experience
 [Naver](https://www.navercorp.com/) / Web Developer / Aug 2016 ~ Present
- - Yahoo Japan Place
-   - Next.js, Recoil, Typescript, Vanilla-Extract, Nest.js
- - Line Place
-   - React, Recoil, Typescript, scss, Nest.js, GraphQL
- - Vlive
-   - React, Redux-saga, Typescript, scss, express, Ansible
- - WAV Media
-   - jQuery, Spring, Apache, Flume, Storm, MySQL, Ansible
+- Yahoo Japan Place
+    - Next.js, Recoil, Typescript, Vanilla-Extract, Nest.js
+- Line Place
+    - React, Recoil, Typescript, scss, Nest.js, GraphQL
+- Vlive
+    - React, Redux-saga, Typescript, scss, express, Ansible
+- WAV Media
+    - jQuery, Spring, Apache, Flume, Storm, MySQL, Ansible
 
 [Ksign](https://www.ksign.com/ksign/main/main.php) / Web Developer / Jun 2014 ~ Aug 2016
- - Integrated Authentication Solution team
-   - Maintained and developed SEO, EAM Solution
-   - jQuery, Spring, Java Servlet
+- Integrated Authentication Solution team
+    - Maintained and developed SEO, EAM Solution
+    - jQuery, Spring, Java Servlet
 
 ### Education
 Minnesota State University, Mankato (2014)
