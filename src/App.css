@@ -1,3 +1,19 @@
+.header {
+  display: flex;
+}
+
+.avatar {
+  margin-top: 16px;
+  margin-right: 8px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: fill;
+  outline: 2px solid #000;
+  outline-offset: -4px;
+  border: 2px solid #ffa326;
+}
+
 .primary {
   color: #ffa326;
 }
@@ -16,6 +32,7 @@ small {
 
 h1 {
   font-size: 24px;
+  margin-bottom: 6px;
 }
 
 h2 {
@@ -40,6 +57,14 @@ p {
 
 .description {
   font-size: 12px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.skill {
+
 }
 
 .done {
@@ -92,4 +117,24 @@ p {
 
 .center {
  vertical-align: auto;
+}
+
+.maple-video-wrapper {
+  display: flex;
+}
+.maple-video {
+  width: 25%;
+  height: 50%;
+  margin: 2px;
+}
+
+@media only screen and (max-width: 375px){
+  .maple-video-wrapper {
+    flex-direction: column;
+  }
+
+  .maple-video {
+    width: 80%;
+    height: 50%;
+  }
 }
