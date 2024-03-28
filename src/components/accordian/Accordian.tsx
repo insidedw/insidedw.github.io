@@ -5,7 +5,7 @@ interface Props {
 }
 export function Accordian({ summary, children }: PropsWithChildren<Props>) {
   const element = children ? (
-    <details>
+    <details className={'accordian'}>
       <summary>{summary}</summary>
       {children}
     </details>

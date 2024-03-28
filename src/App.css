@@ -114,7 +114,6 @@ p {
   color: transparent !important;
 }
 
-
 .center {
  vertical-align: auto;
 }
@@ -128,6 +127,15 @@ p {
   margin: 2px;
 }
 
+.accordian {
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  .accordian:hover {
+    color: #ffdc54;
+  }
+}
 @media only screen and (max-width: 375px){
   .maple-video-wrapper {
     flex-direction: column;
