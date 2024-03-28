@@ -1,20 +1,8 @@
 import React, { PropsWithChildren } from 'react'
 import './App.css'
-
-interface Props {
-  summary: string
-}
-function Accordian({ summary, children }: PropsWithChildren<Props>) {
-  const element = children ? (
-    <details>
-      <summary>{summary}</summary>
-      {children}
-    </details>
-  ) : (
-    <>{summary}</>
-  )
-  return <p className={'done'}>{element}</p>
-}
+import { Video } from './components/video'
+import { Image } from './components/image'
+import { Accordian } from './components/accordian'
 
 function App() {
   return (
@@ -59,31 +47,37 @@ function App() {
             일본 로컬 서비스<small>Present</small>
           </p>
           <p className={'description bold'}>FE + BE</p>
-          <Accordian summary={'상점 페이지 > 메뉴탭 페이지 개발'}></Accordian>
-          <Accordian summary={'메뉴 페이지 개발'}></Accordian>
+          <Accordian summary={'상점 페이지 > 메뉴탭 페이지 개발'}>
+            <Video
+              srcList={[
+                'https://ik.imagekit.io/crso3ztbifq/portfolio/yj_menu_tab_HsmZ80G3t.mp4?updatedAt=1711584926664',
+              ]}
+            />
+          </Accordian>
+          <Accordian summary={'메뉴 페이지 개발'}>
+            <Video
+              srcList={[
+                'https://ik.imagekit.io/crso3ztbifq/portfolio/yj_menuend_Dzo7wGzPa.mp4?updatedAt=1711584807919',
+              ]}
+            />
+          </Accordian>
 
           <p className={'description bold'}>FE</p>
           <Accordian summary={'단풍 & 벚꽃 시즌 때 명소 페이지 진입 시 단풍 및 벚꽃 떨어지는 에니메이션 개발'}>
-            <div className={'maple-video-wrapper'}>
-              <video
-                className={'maple-video'}
-                src={
-                  'https://ik.imagekit.io/crso3ztbifq/portfolio/KakaoTalk_20240327_165959735_hZQfRShMV.mp4?updatedAt=1711545171706'
-                }
-                autoPlay
-                muted
-                loop
-              />
-              <video
-                className={'maple-video'}
-                src={
-                  'https://ik.imagekit.io/crso3ztbifq/portfolio/404190475_928428158790016_1772448287178861212_n_R7sEy91U0.mp4?updatedAt=1702774879916'
-                }
-                autoPlay
-                muted
-                loop
-              />
-            </div>
+            <Video
+              srcList={[
+                'https://ik.imagekit.io/crso3ztbifq/portfolio/KakaoTalk_20240327_165959735_hZQfRShMV.mp4?updatedAt=1711545171706',
+                'https://ik.imagekit.io/crso3ztbifq/portfolio/404190475_928428158790016_1772448287178861212_n_R7sEy91U0.mp4?updatedAt=1702774879916',
+              ]}
+            />
+          </Accordian>
+          <Accordian summary={'리뷰 페이지 개발'}>
+            <p className={'description done secondary'}>Next.js Page Router 기반 Custom Scroll Restoration 개발</p>
+            <Video
+              srcList={[
+                'https://ik.imagekit.io/crso3ztbifq/portfolio/yj_reviewend_TzN_0oijs.mp4?updatedAt=1711584929193',
+              ]}
+            />
           </Accordian>
           <Accordian summary={'외부 서비스 제공을 위하여 미디어 뷰어 페이지 설계 및 개발'}></Accordian>
           <Accordian summary={'자주 쓰이는 주요 컴포넌트 storybook으로 side effect 최소화'}></Accordian>
@@ -105,10 +99,12 @@ function App() {
             일본 로컬 서비스<small>Nov 2021 - Nov 2022</small>
           </p>
           <p className={'description bold'}>FE + BE</p>
-          <Accordian summary={'지역 X 카테고리 랭킹 API + 페이지 개발'}>
-            <p className={'description done secondary'}>Discover Ranking Tab API & UI 개발</p>
-            <p className={'description done secondary'}>Ranking End 페이지 API & UI 개발</p>
-            <p className={'description done secondary'}>랭킹 품질 검증 배치 개발</p>
+          <Accordian summary={'지역 X 카테고리 랭킹 API + 페이지 개발 + 랭킹 품질 검증 배치 개발'}>
+            <Video
+              srcList={[
+                'https://ik.imagekit.io/crso3ztbifq/portfolio/lp_ranking_2FIvyGnxn.mp4?updatedAt=1711585941716',
+              ]}
+            />
           </Accordian>
           <Accordian summary={'명소 이벤트'}>
             <p className={'description done secondary'}>검색 홈 &gt; 버블 필터 API & UI 개발</p>
@@ -157,6 +153,13 @@ function App() {
 
           <Accordian summary={'유료 채팅 페이지 개발'}>
             <p className={'description done secondary'}>구매 권한 체크를 위해 JWT 사용</p>
+            <Image
+              srcList={[
+                'https://ik.imagekit.io/crso3ztbifq/channel_chat_1_aDBboBrjXG.gif?updatedAt=1632538868031',
+                'https://ik.imagekit.io/crso3ztbifq/twice_L3ykdpYkSHS.gif?updatedAt=1632540626069',
+                'https://ik.imagekit.io/crso3ztbifq/channel_chat_audio_img_IFnemDral.gif?updatedAt=1633149667920',
+              ]}
+            />
           </Accordian>
 
           <Accordian summary={'이미지 업로더 sdk 교체'}>
@@ -168,8 +171,19 @@ function App() {
           <Accordian
             summary={'Slow 3G 환경, 3rd party sdk 로드되기전 sdk API 호출되어 404 에러 발생하여 수정'}
           ></Accordian>
-          <Accordian summary={'새소식 UI 개발'}></Accordian>
-          <Accordian summary={'채널 홈 UI 개발'}></Accordian>
+          <Accordian summary={'새소식 UI 개발'}>
+            <Image
+              srcList={['https://ik.imagekit.io/crso3ztbifq/notifications_gif_2_ApeLQUg-0.gif?updatedAt=1621132744719']}
+            />
+          </Accordian>
+          <Accordian summary={'채널 홈 UI 개발'}>
+            <Image
+              srcList={['https://ik.imagekit.io/crso3ztbifq/v_channelHome_TfR9vC-sP1.gif?updatedAt=1626010520165']}
+            />
+          </Accordian>
+          <Accordian summary={'채널 My UI 개발'}>
+            <Image srcList={['https://ik.imagekit.io/crso3ztbifq/channelMy__d9Cau--rG.gif?updatedAt=1617093073381']} />
+          </Accordian>
 
           <p className={'description bold'}>BE</p>
           <Accordian summary={'쿠키 정책 변경으로 특정 브라우저에서 로그인이 안되었던 이슈 최대한 해결'}>
