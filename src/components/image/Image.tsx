@@ -1,4 +1,4 @@
-import React, { ImgHTMLAttributes, VideoHTMLAttributes } from 'react'
+import React, { ImgHTMLAttributes } from 'react'
 
 interface Props extends ImgHTMLAttributes<HTMLImageElement> {
   srcList: string[]
