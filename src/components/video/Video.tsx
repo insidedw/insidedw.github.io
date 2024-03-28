@@ -6,8 +6,8 @@ interface Props extends VideoHTMLAttributes<HTMLVideoElement> {
 export function Video({ srcList, autoPlay = true, muted = true, loop = true, ...rest }: Props) {
   return (
     <div className={'maple-video-wrapper'}>
-      {srcList.map((src) => {
-        return <video className={'maple-video'} src={src} autoPlay muted loop {...rest} />
+      {srcList.map((src, idx) => {
+        return <video key={`${src}_${idx}`} className={'maple-video'} src={src} autoPlay muted loop {...rest} />
       })}
     </div>
   )

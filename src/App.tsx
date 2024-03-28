@@ -1,10 +1,12 @@
-import React, { PropsWithChildren } from 'react'
+import React from 'react'
 import './App.css'
 import { Video } from './components/video'
 import { Image } from './components/image'
 import { Accordian } from './components/accordian'
+import { Fab } from './components/fab'
 
 function App() {
+  const year = new Date().getFullYear()
   return (
     <main className="App">
       <header className={'header'}>
@@ -61,7 +63,6 @@ function App() {
               ]}
             />
           </Accordian>
-
           <p className={'description bold'}>FE</p>
           <Accordian summary={'단풍 & 벚꽃 시즌 때 명소 페이지 진입 시 단풍 및 벚꽃 떨어지는 에니메이션 개발'}>
             <Video
@@ -259,9 +260,9 @@ function App() {
           </p>
         </div>
         <div>
-          <h3>Academic Computer Center @MNSU</h3>
+          <h3>Academic Computer Center</h3>
           <p className={'description'}>
-            Student Consultant <small>Aug 2013 - May 2014 </small>
+            Student Consultant @MNSU USA<small>Aug 2013 - May 2014 </small>
           </p>
           <p className={'done'}>Helped customers who have trouble with computer hardware or software.</p>
           <p className={'done'}>Set up network cable on campus</p>
@@ -274,9 +275,9 @@ function App() {
           <p className={'done'}>Created test cases. Run functional, regression, and alpha testing.</p>
         </div>
         <div>
-          <h3>IT Service Desk @MNSU</h3>
+          <h3>IT Service Desk</h3>
           <p className={'description'}>
-            Student Consultant <small>Aug 2012 - May 2013</small>
+            Student Consultant @MNSU USA<small>Aug 2012 - May 2013</small>
           </p>
           <p className={'done'}>
             Provided support for administrative, academic and student computer questions via walk-in, telephone, e-mail.
@@ -311,7 +312,12 @@ function App() {
           </p>
         </div>
       </section>
-      <footer></footer>
+      <footer className={'footer'}>
+        <div className={'footer-inner'}>
+          <p>Daewoong Kim | Copyright © {year}</p>
+        </div>
+      </footer>
+      <Fab onClick={() => scrollTo({ top: 0, behavior: 'smooth' })} />
     </main>
   )
 }

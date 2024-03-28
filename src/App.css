@@ -68,6 +68,7 @@ p {
 }
 
 .done {
+  font-size: 12px;
   margin-left: 14px;
 }
 
@@ -131,9 +132,49 @@ p {
   cursor: pointer;
 }
 
+.footer {
+  margin-top: 3rem;
+}
+
+.footer-inner {
+}
+.fab-wrapper {
+  position: sticky;
+  display: flex;
+  bottom: calc(env(safe-area-inset-bottom) + 16px);
+}
+
+.fab {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,.15);
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,.15);
+  transition: 0.2s;
+}
 @media (hover: hover) {
   .accordian:hover {
     color: #ffdc54;
+  }
+  .fab:hover {
+    background-color: #ffdc54;
+  }
+  .fab:hover.fab > svg > path{
+    stroke-width: 2;
   }
 }
 @media only screen and (max-width: 375px){

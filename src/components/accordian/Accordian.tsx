@@ -12,5 +12,5 @@ export function Accordian({ summary, children }: PropsWithChildren<Props>) {
   ) : (
     <>{summary}</>
   )
-  return <p className={'done'}>{element}</p>
+  return <div className={'done'}>{element}</div>
 }
