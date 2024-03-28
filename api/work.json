@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "company": "NAVER > Yahoo Japan Place",
+    "description": "일본 로컬 서비스",
+    "period": "Present"
+  },
+  {
+    "id": 2,
+    "company": "NAVER > Line Place",
+    "description": "일본 로컬 서비스",
+    "period": "Nov 2021 - Nov 2022"
+  },
+  {
+    "id": 3,
+    "company": "NAVER > Vlive",
+    "description": "KPOP 스타 커뮤니티 서비스",
+    "period": "Jan 2020 - Nov 2021"
+  },
+  {
+    "id": 4,
+    "company": "NAVER > WAV Media",
+    "description": "인디 아티스트를 위한 뮤직 커뮤니티 서비스",
+    "period": "Aug 2016 - Jan 2020"
+  },
+  {
+    "id": 5,
+    "company": "Ksign",
+    "description": "통합인증개발팀",
+    "period": "June 2014 - Aug 2016"
+  },
+  {
+    "id": 6,
+    "company": "Academic Computer Center",
+    "description": "Student Consultant",
+    "period": "Aug 2013 - May 2014"
+  },
+  {
+    "id": 7,
+    "company": "TEST ENC",
+    "description": "Android built-in Samsung Application Tester",
+    "period": "Summer of 2013"
+  },
+  {
+    "id": 8,
+    "company": "IT Service Desk",
+    "description": "Student Consultant",
+    "period": "Aug 2012 - May 2013"
+  }
+]
